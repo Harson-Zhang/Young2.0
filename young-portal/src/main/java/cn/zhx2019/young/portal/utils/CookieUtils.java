@@ -1,4 +1,4 @@
-package cn.zhx2019.young.portal.controller;
+package cn.zhx2019.young.portal.utils;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
