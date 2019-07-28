@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.zhx2019.young.portal.dao.CourseSelectedMapper">
-  <resultMap id="BaseResultMap" type="cn.zhx2019.young.portal.pojo.CourseSelected">
+  <resultMap id="BaseResultMap" type="cn.zhx2019.young.api.course.vo.CourseSelected">
     <result column="cid" jdbcType="BIGINT" property="cid" />
     <result column="uid" jdbcType="BIGINT" property="uid" />
     <result column="course_code" jdbcType="VARCHAR" property="courseCode" />
@@ -10,7 +10,7 @@
     <result column="status" jdbcType="INTEGER" property="status" />
     <result column="ischoose" jdbcType="INTEGER" property="ischoose" />
   </resultMap>
-  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.zhx2019.young.portal.pojo.CourseSelected">
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.zhx2019.young.api.course.vo.CourseSelected">
     <result column="content" jdbcType="LONGVARCHAR" property="content" />
   </resultMap>
   <sql id="Example_Where_Clause">
@@ -113,7 +113,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="cn.zhx2019.young.portal.pojo.CourseSelected">
+  <insert id="insert" parameterType="cn.zhx2019.young.api.course.vo.CourseSelected">
     insert into course_selected (cid, uid, course_code, 
       mark, content_date, status, 
       ischoose, content)
@@ -121,7 +121,7 @@
       #{mark,jdbcType=INTEGER}, #{contentDate,jdbcType=DATE}, #{status,jdbcType=INTEGER}, 
       #{ischoose,jdbcType=INTEGER}, #{content,jdbcType=LONGVARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="cn.zhx2019.young.portal.pojo.CourseSelected">
+  <insert id="insertSelective" parameterType="cn.zhx2019.young.api.course.vo.CourseSelected">
     insert into course_selected
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="cid != null">
@@ -290,7 +290,7 @@
   </select>
 
   <!--选出限定范围内的用户评价数据-->
-  <select id="getLimitedRemarkByCourse_code" resultType="cn.zhx2019.young.portal.pojo.CourseSelected">
+  <select id="getLimitedRemarkByCourse_code" resultType="cn.zhx2019.young.api.course.vo.CourseSelected">
         select uid,
                mark,
                content,

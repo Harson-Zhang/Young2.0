@@ -1,10 +1,10 @@
 package cn.zhx2019.young.portal.service;
 
-import cn.zhx2019.young.portal.api.EvaluationService;
+import cn.zhx2019.young.api.course.EvaluationService;
 import cn.zhx2019.young.portal.dao.EvaluationMapper;
-import cn.zhx2019.young.portal.pojo.Course;
-import cn.zhx2019.young.portal.pojo.EasyUIDataGrid;
-import cn.zhx2019.young.portal.pojo.Evaluation;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.common.EasyUIDataGrid;
+import cn.zhx2019.young.api.course.vo.Evaluation;
 import cn.zhx2019.young.portal.pojo.EvaluationExample;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;

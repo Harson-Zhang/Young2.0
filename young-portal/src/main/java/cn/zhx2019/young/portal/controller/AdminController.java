@@ -1,11 +1,15 @@
 package cn.zhx2019.young.portal.controller;
 
 
-import cn.zhx2019.young.portal.api.*;
-import cn.zhx2019.young.portal.pojo.Admin;
-import cn.zhx2019.young.portal.pojo.Course;
-import cn.zhx2019.young.portal.pojo.EasyUIDataGrid;
-import cn.zhx2019.young.portal.pojo.YoungResult;
+import cn.zhx2019.young.api.course.CourseSelectedService;
+import cn.zhx2019.young.api.course.CourseService;
+import cn.zhx2019.young.api.course.EvaluationService;
+import cn.zhx2019.young.api.manager.AdminService;
+import cn.zhx2019.young.api.manager.vo.Admin;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.common.EasyUIDataGrid;
+import cn.zhx2019.young.api.common.YoungResult;
+import cn.zhx2019.young.api.user.UserService;
 import cn.zhx2019.young.portal.utils.CookieUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +29,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Young
  */
-@Controller
+//@Controller
 public class AdminController {
     private static final Logger logger = Logger.getLogger(AdminController.class);
 

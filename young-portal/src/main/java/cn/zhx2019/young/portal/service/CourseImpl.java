@@ -1,10 +1,14 @@
 package cn.zhx2019.young.portal.service;
 
-import cn.zhx2019.young.portal.api.CourseService;
+import cn.zhx2019.young.api.common.EasyUIDataGrid;
+import cn.zhx2019.young.api.common.Page;
+import cn.zhx2019.young.api.common.PagingData;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.course.CourseService;
 import cn.zhx2019.young.portal.dao.CourseMapper;
 import cn.zhx2019.young.portal.dao.CourseSelectedMapper;
 import cn.zhx2019.young.portal.dao.SchoolMapper;
-import cn.zhx2019.young.portal.pojo.*;
+import cn.zhx2019.young.portal.pojo.CourseExample;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;

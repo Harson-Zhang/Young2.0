@@ -1,10 +1,16 @@
 package cn.zhx2019.young.portal.service;
 
 
-import cn.zhx2019.young.portal.api.CourseSelectedService;
+import cn.zhx2019.young.api.common.EasyUIDataGrid;
+import cn.zhx2019.young.api.common.PagingData;
+import cn.zhx2019.young.api.common.YoungResult;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.course.vo.CourseSelected;
+import cn.zhx2019.young.api.course.vo.MyRemark;
+import cn.zhx2019.young.api.course.CourseSelectedService;
 import cn.zhx2019.young.portal.dao.CourseMapper;
 import cn.zhx2019.young.portal.dao.CourseSelectedMapper;
-import cn.zhx2019.young.portal.pojo.*;
+import cn.zhx2019.young.portal.pojo.CourseSelectedExample;
 import cn.zhx2019.young.portal.utils.BadWordUtil2;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;

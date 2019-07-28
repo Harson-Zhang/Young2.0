@@ -1,8 +1,12 @@
 package cn.zhx2019.young.portal.controller;
 
-import cn.zhx2019.young.portal.api.CourseSelectedService;
-import cn.zhx2019.young.portal.api.EvaluationService;
-import cn.zhx2019.young.portal.pojo.*;
+import cn.zhx2019.young.api.common.PagingData;
+import cn.zhx2019.young.api.course.vo.CourseSelected;
+import cn.zhx2019.young.api.course.vo.Evaluation;
+import cn.zhx2019.young.api.course.vo.MyRemark;
+import cn.zhx2019.young.api.user.vo.User;
+import cn.zhx2019.young.api.course.CourseSelectedService;
+import cn.zhx2019.young.api.course.EvaluationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

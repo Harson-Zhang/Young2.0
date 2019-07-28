@@ -12,6 +12,7 @@
     <module>young-common</module>
     <module>young-api</module>
     <module>young-portal</module>
+      <module>young-user</module>
   </modules>
 
   <name>young-parent</name>
@@ -54,6 +55,7 @@
     <quartz.version>2.2.2</quartz.version>
 
     <hutool.version>4.1.12</hutool.version>
+    <swaggger.version>2.6.1</swaggger.version>
   </properties>
 
   <dependencyManagement>
@@ -226,12 +228,18 @@
         <artifactId>solr-solrj</artifactId>
         <version>${solrj.version}</version>
       </dependency>
-      <!-- dubbo相关 -->
-      <!--<dependency>-->
-        <!--<groupId>com.alibaba</groupId>-->
-        <!--<artifactId>dubbo</artifactId>-->
-        <!--<version>${dubbo.version}</version>-->
-      <!--</dependency>-->
+       <!--dubbo相关-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>dubbo</artifactId>
+        <version>${dubbo.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
       <dependency>
         <groupId>org.apache.zookeeper</groupId>
         <artifactId>zookeeper</artifactId>
@@ -257,6 +265,16 @@
         <groupId>cn.hutool</groupId>
         <artifactId>hutool-all</artifactId>
         <version>${hutool.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>${swaggger.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>${swaggger.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

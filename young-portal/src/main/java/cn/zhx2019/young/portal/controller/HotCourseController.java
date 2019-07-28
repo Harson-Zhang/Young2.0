@@ -1,17 +1,19 @@
 package cn.zhx2019.young.portal.controller;
 
-import cn.zhx2019.young.portal.api.CourseService;
-import cn.zhx2019.young.portal.pojo.Course;
+import cn.zhx2019.young.api.course.CourseService;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.user.vo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
- * 热门课程Controller
+ * 首页Controller
  * @author young
  */
 @Controller
@@ -20,9 +22,23 @@ public class HotCourseController {
     private CourseService service;
 
     /**
-     * To:袁双双：
-     *      我把你的两个方法合并了，因为我看方法体里的东西都一样。里面还加了推荐课程的代码，如果修改的话不要把我的覆盖掉哦
-     *       ——章海翔
+     * 前往个人中心
+     * @param request
+     * @return
+     */
+    @RequestMapping("/toUserSystem")
+    public String toUserSystemPage(HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        User loginUser = (User) session.getAttribute("loginUser");
+        if (loginUser != null){
+            return "customer";
+        }else {
+            return "redirect:index";
+        }
+    }
+
+    /**
+     * 首页热门课程与推荐课程
      * @param request
      * @return
      */
@@ -53,18 +69,6 @@ public class HotCourseController {
         request.getSession().setAttribute("RecommendCourse",recommendCourse );
         return page;
     }
-//    @RequestMapping("/toDetailsPage")
-//    public String toDetailsPage(int id,HttpServletRequest request) {
-//       HotCourse course = service.findAllHouse(id);
-//        List<String> list = new ArrayList<String>();
-//        String[] split = HouseDetails.getHouseDetailsImg().split("~");
-//        for(int i=0;i<split.length;i++) {
-//            list.add(split[i]);
-//        }
-//        request.getSession().setAttribute("Details", HouseDetails);
-//        request.getSession().setAttribute("DetailsImg", list);
-//        return "housedetails.jsp";
-//    }
 
 
 }

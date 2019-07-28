@@ -1,8 +1,8 @@
 package cn.zhx2019.young.portal.dao;
 
-import cn.zhx2019.young.portal.pojo.Course;
+import cn.zhx2019.young.api.course.vo.Course;
 import cn.zhx2019.young.portal.pojo.CourseExample;
-import cn.zhx2019.young.portal.pojo.Page;
+import cn.zhx2019.young.api.common.Page;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

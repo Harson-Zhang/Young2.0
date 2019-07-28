@@ -1,6 +1,6 @@
 package cn.zhx2019.young.portal.dao;
 
-import cn.zhx2019.young.portal.pojo.CourseSelected;
+import cn.zhx2019.young.api.course.vo.CourseSelected;
 import cn.zhx2019.young.portal.pojo.CourseSelectedExample;
 import org.apache.ibatis.annotations.Param;
 

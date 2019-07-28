@@ -1,6 +1,6 @@
 package cn.zhx2019.young.portal.dao;
 
-import cn.zhx2019.young.portal.pojo.School;
+import cn.zhx2019.young.api.portal.vo.School;
 import cn.zhx2019.young.portal.pojo.SchoolExample;
 import org.apache.ibatis.annotations.Param;
 

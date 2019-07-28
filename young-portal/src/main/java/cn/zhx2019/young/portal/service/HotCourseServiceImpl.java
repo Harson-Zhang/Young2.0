@@ -1,11 +1,11 @@
 package cn.zhx2019.young.portal.service;
 
 
-import cn.zhx2019.young.portal.api.HotCourseService;
+import cn.zhx2019.young.api.portal.HotCourseService;
 import cn.zhx2019.young.portal.dao.CourseMapper;
 import cn.zhx2019.young.portal.dao.HotCourseMapper;
-import cn.zhx2019.young.portal.pojo.Course;
-import cn.zhx2019.young.portal.pojo.HotCourse;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.portal.vo.HotCourse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

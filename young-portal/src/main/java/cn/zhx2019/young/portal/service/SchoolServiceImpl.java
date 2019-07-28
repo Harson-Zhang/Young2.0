@@ -1,8 +1,8 @@
 package cn.zhx2019.young.portal.service;
 
-import cn.zhx2019.young.portal.api.SchoolService;
+import cn.zhx2019.young.api.portal.SchoolService;
 import cn.zhx2019.young.portal.dao.SchoolMapper;
-import cn.zhx2019.young.portal.pojo.School;
+import cn.zhx2019.young.api.portal.vo.School;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

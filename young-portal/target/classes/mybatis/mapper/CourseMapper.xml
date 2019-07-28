@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.zhx2019.young.portal.dao.CourseMapper">
-    <resultMap id="BaseResultMap" type="cn.zhx2019.young.portal.pojo.Course">
+    <resultMap id="BaseResultMap" type="cn.zhx2019.young.api.course.vo.Course">
         <id column="cid" jdbcType="BIGINT" property="cid"/>
         <result column="sch_name" jdbcType="VARCHAR" property="schName"/>
         <result column="course_code" jdbcType="VARCHAR" property="courseCode"/>
@@ -117,7 +117,7 @@
             <include refid="Example_Where_Clause"/>
         </if>
     </delete>
-    <insert id="insert" parameterType="cn.zhx2019.young.portal.pojo.Course">
+    <insert id="insert" parameterType="cn.zhx2019.young.api.course.vo.Course">
         insert into course (cid, sch_name, course_code,
                             course_name, course_info, course_selectnum,
                             course_totalnum, course_remark, course_des,
@@ -127,7 +127,7 @@
                 #{courseTotalnum,jdbcType=INTEGER}, #{courseRemark,jdbcType=VARCHAR}, #{courseDes,jdbcType=VARCHAR},
                 #{courseImage,jdbcType=VARCHAR})
     </insert>
-    <insert id="insertSelective" parameterType="cn.zhx2019.young.portal.pojo.Course">
+    <insert id="insertSelective" parameterType="cn.zhx2019.young.api.course.vo.Course">
         insert into course
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="cid != null">
@@ -254,7 +254,7 @@
             <include refid="Update_By_Example_Where_Clause"/>
         </if>
     </update>
-    <update id="updateByPrimaryKeySelective" parameterType="cn.zhx2019.young.portal.pojo.Course">
+    <update id="updateByPrimaryKeySelective" parameterType="cn.zhx2019.young.api.course.vo.Course">
         update course
         <set>
             <if test="schName != null">
@@ -287,7 +287,7 @@
         </set>
         where cid = #{cid,jdbcType=BIGINT}
     </update>
-    <update id="updateByPrimaryKey" parameterType="cn.zhx2019.young.portal.pojo.Course">
+    <update id="updateByPrimaryKey" parameterType="cn.zhx2019.young.api.course.vo.Course">
         update course
         set sch_name         = #{schName,jdbcType=VARCHAR},
             course_code      = #{courseCode,jdbcType=VARCHAR},
@@ -335,7 +335,7 @@
     </update>
 
     <!-- 查找学校的课程信息 -->
-    <select id="findCourseBySid" parameterType="cn.zhx2019.young.portal.pojo.Page" resultMap="BaseResultMap">
+    <select id="findCourseBySid" parameterType="cn.zhx2019.young.api.common.Page" resultMap="BaseResultMap">
         select *
         from course
         where sch_name = #{schName}
@@ -392,7 +392,7 @@
     </select>
 
 
-    <select id="selectCourseName" resultMap="BaseResultMap" parameterType="cn.zhx2019.young.portal.pojo.Course">
+    <select id="selectCourseName" resultMap="BaseResultMap" parameterType="cn.zhx2019.young.api.course.vo.Course">
         select
         <include refid="Base_Column_List"/>
         from

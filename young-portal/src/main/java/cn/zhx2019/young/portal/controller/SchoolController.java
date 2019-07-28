@@ -1,10 +1,10 @@
 package cn.zhx2019.young.portal.controller;
 
-import cn.zhx2019.young.portal.api.CourseService;
-import cn.zhx2019.young.portal.api.SchoolService;
-import cn.zhx2019.young.portal.pojo.Course;
-import cn.zhx2019.young.portal.pojo.Page;
-import cn.zhx2019.young.portal.pojo.School;
+import cn.zhx2019.young.api.course.CourseService;
+import cn.zhx2019.young.api.portal.SchoolService;
+import cn.zhx2019.young.api.course.vo.Course;
+import cn.zhx2019.young.api.common.Page;
+import cn.zhx2019.young.api.portal.vo.School;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

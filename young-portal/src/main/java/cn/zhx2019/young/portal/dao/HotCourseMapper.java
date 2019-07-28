@@ -1,7 +1,7 @@
 package cn.zhx2019.young.portal.dao;
 
 
-import cn.zhx2019.young.portal.pojo.HotCourse;
+import cn.zhx2019.young.api.portal.vo.HotCourse;
 
 import java.util.List;
 

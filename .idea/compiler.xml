@@ -9,6 +9,7 @@
         <module name="young-api" />
         <module name="young-common" />
         <module name="young-portal" />
+        <module name="young-user" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,8 +1,8 @@
 package cn.zhx2019.young.portal.service;
 
-import cn.zhx2019.young.portal.api.AdminService;
+import cn.zhx2019.young.api.manager.AdminService;
 import cn.zhx2019.young.portal.dao.AdminMapper;
-import cn.zhx2019.young.portal.pojo.Admin;
+import cn.zhx2019.young.api.manager.vo.Admin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
