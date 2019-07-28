@@ -88,7 +88,7 @@
                         <ul>
                             <c:forEach items="${courses}" var="c">
                                 <li>
-                                   <a href="coursedetails?cid=${c.cid}">
+                                   <a href="${pageContext.request.contextPath}/coursedetails?cid=${c.cid}">
                                     <div class="img">
                                         <img src="${c.courseImage}" alt="" >
 
