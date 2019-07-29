@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/young-admin" />
     <file type="web" url="file://$PROJECT_DIR$/young-course" />
     <file type="web" url="file://$PROJECT_DIR$/young-portal" />
     <file type="web" url="file://$PROJECT_DIR$/young-user" />
@@ -11,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/young-course/pom.xml" />
+        <option value="$PROJECT_DIR$/young-admin/pom.xml" />
       </list>
     </option>
   </component>
