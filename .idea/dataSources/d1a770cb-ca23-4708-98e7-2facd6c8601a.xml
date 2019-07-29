@@ -934,7 +934,7 @@
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="236" parent="2" name="course">
-      <Comment>mysql底层引擎使用InnoDB，字符集utf-8 </Comment>
+      <Comment>mysql底层引擎使用InnoDB，字符集utf-8</Comment>
       <Collation>utf8_general_ci</Collation>
     </table>
     <table id="237" parent="2" name="course_information">

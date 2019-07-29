@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="young-api" />
         <module name="young-common" />
+        <module name="young-course" />
         <module name="young-portal" />
         <module name="young-user" />
       </profile>
