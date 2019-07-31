@@ -1,9 +1,11 @@
 package cn.zhx2019.young.api.common;
 
+import java.io.Serializable;
+
 /**
  * @author  young
  */
-public class Page<T> {
+public class Page<T> implements Serializable {
 
     private int page;
 

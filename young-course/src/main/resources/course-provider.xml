@@ -13,6 +13,12 @@
     <!-- 4、暴露服务 ref：指向服务的真正的实现对象  -->
     <dubbo:service
             interface="cn.zhx2019.young.api.course.CourseSelectedService" ref="courseSelectedServiceImpl"/>
-    <!-- 5.服务的实现 -->
-    <bean id="courseSelectedServiceImpl" class="cn.zhx2019.young.course.service.CourseSelectedServiceImpl"/>
+    <dubbo:service
+            interface="cn.zhx2019.young.api.course.CourseService" ref="courseImpl"/>
+    <dubbo:service
+            interface="cn.zhx2019.young.api.course.EvaluationService" ref="evaluationServiceImpl"/>
+    <!-- 5.服务的实现(使用类名开头小写作为ref后，可省略) -->
+    <!--<bean id="courseSelectedServiceImpl" class="cn.zhx2019.young.course.service.CourseSelectedServiceImpl"/>-->
+    <!--<bean id="courseImpl" class="cn.zhx2019.young.course.service.CourseImpl"/>-->
+    <!--<bean id="evaluationServiceImpl" class="cn.zhx2019.young.course.service.EvaluationServiceImpl"/>-->
 </beans>

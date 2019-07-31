@@ -37,6 +37,6 @@
         </property>
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="cn.zhx2019.young.user.dao" />
+        <property name="basePackage" value="cn.zhx2019.young.admin.dao" />
     </bean>
 </beans>

@@ -12,7 +12,7 @@
 
     <!--组建扫描器，自动扫描指定包下面的所有注解，如果包含@controller,@service,@component则把这个类自动注册成bean-->
     <!--在springmvc的配置文件中的主要作用是注册五大组建中的controller组件-->
-    <context:component-scan base-package="cn.zhx2019.young.user.controller" />
+    <context:component-scan base-package="cn.zhx2019.young.admin.controller" />
     <!--mvc:annotation-driven会自动注册DefaultAnnotationHandlerMapping与AnnotationMethodHandlerAdapter 两个bean,是spring MVC为@Controllers分发请求所必须的。
     并提供了：数据绑定支持，@NumberFormatannotation支持，@DateTimeFormat支持，@Valid支持，读写XML的支持（JAXB），读写JSON的支持（Jackson）。
     后面，我们处理响应ajax请求时，就使用到了对json的支持。-->
@@ -54,7 +54,7 @@
     </bean>
 
     <!--swagger配置-->
-    <bean class="cn.zhx2019.young.user.config.SwaggerConfig" />
+    <bean class="cn.zhx2019.young.admin.config.SwaggerConfig" />
     <bean class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration" id="swagger2Config"/>
 
     <mvc:resources mapping="swagger-ui.html" location="classpath:/META-INF/resources/" />

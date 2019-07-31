@@ -17,9 +17,9 @@ import java.util.List;
  * @author young
  */
 @Controller
-public class HotCourseController {
+public class PortalController {
     @Autowired
-    private CourseService service;
+    private CourseService courseService;
 
     /**
      * 前往个人中心
@@ -44,8 +44,8 @@ public class HotCourseController {
      */
     @RequestMapping(value = {"/toIndexPage", "/"})
     public String toIndexPage(HttpServletRequest request) {
-        List<Course> findHotCourse = service.findAllHotCourse();
-        List<Course> recommendCourse = service.getRecommendCourse();
+        List<Course> findHotCourse = courseService.findAllHotCourse();
+        List<Course> recommendCourse = courseService.getRecommendCourse();
 
         request.getSession().setAttribute("HotCourse",findHotCourse );
         request.getSession().setAttribute("RecommendCourse",recommendCourse );
@@ -62,8 +62,8 @@ public class HotCourseController {
      */
     @RequestMapping("/{page}")
     public String getPage(@PathVariable String page, HttpServletRequest request){
-        List<Course> findHotCourse = service.findAllHotCourse();
-        List<Course> recommendCourse = service.getRecommendCourse();
+        List<Course> findHotCourse = courseService.findAllHotCourse();
+        List<Course> recommendCourse = courseService.getRecommendCourse();
 
         request.getSession().setAttribute("HotCourse",findHotCourse );
         request.getSession().setAttribute("RecommendCourse",recommendCourse );

@@ -11,6 +11,7 @@ cn\zhx2019\young\course\dao\CourseMapper.class
 cn\zhx2019\young\course\dao\EvaluationMapper.class
 cn\zhx2019\young\course\pojo\EvaluationExample$Criteria.class
 cn\zhx2019\young\course\pojo\EvaluationExample$Criterion.class
+cn\zhx2019\young\course\controller\RemarkController.class
 cn\zhx2019\young\course\pojo\CourseSelectedExample$GeneratedCriteria.class
 cn\zhx2019\young\course\config\SwaggerConfig.class
 cn\zhx2019\young\course\pojo\CourseSelectedExample.class

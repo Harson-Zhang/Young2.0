@@ -1,8 +1,6 @@
-E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\dao\HotCourseMapper.java
 E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\pojo\SchoolExample.java
-E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\service\HotCourseServiceImpl.java
 E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\controller\SchoolController.java
-E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\controller\HotCourseController.java
 E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\dao\SchoolMapper.java
 E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\service\SchoolServiceImpl.java
 E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\utils\CookieUtils.java
+E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal\controller\PortalController.java

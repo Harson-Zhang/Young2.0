@@ -13,6 +13,7 @@ import cn.zhx2019.young.api.user.UserService;
 import cn.zhx2019.young.admin.utils.CookieUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,7 +29,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Young
  */
-//@Controller
+@Controller
 public class AdminController {
     private static final Logger logger = Logger.getLogger(AdminController.class);
 
@@ -93,6 +94,11 @@ public class AdminController {
             return "admin";
         }
         return "redirect:/adminlogin";
+    }
+
+    @RequestMapping("/course-list")
+    public String getCourseList(){
+        return "course-list";
     }
 
 

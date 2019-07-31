@@ -8,7 +8,6 @@
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
-    <context:component-scan base-package="cn.zhx2019.young.user.service"/>
-    <import resource="classpath:user-consumer.xml"/>
-    <import resource="classpath:user-provider.xml"/>
+    <context:component-scan base-package="cn.zhx2019.young.admin.service"/>
+    <import resource="classpath:admin-consumer.xml"/>
 </beans>

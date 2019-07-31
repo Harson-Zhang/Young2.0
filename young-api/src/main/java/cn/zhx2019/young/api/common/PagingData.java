@@ -1,12 +1,13 @@
 package cn.zhx2019.young.api.common;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author  young
  */
-public class PagingData<T> {
+public class PagingData<T> implements Serializable {
 	private int code;
 
 	private String msg;
