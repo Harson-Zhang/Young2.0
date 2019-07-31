@@ -30,7 +30,9 @@ public class PortalController {
     public String toUserSystemPage(HttpServletRequest request) {
         HttpSession session = request.getSession();
         User loginUser = (User) session.getAttribute("loginUser");
+        // 这里改为token验证
         if (loginUser != null){
+            // ? 如何发送token到另一个系统的Controller或Interceptor
             return "customer";
         }else {
             return "redirect:index";

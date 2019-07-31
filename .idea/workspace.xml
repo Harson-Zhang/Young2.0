@@ -7,69 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="809377dd-5df3-4955-80aa-e83cc9c309d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/young-portal/src/main/resources/portal-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/annotation/PassToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/annotation/UserLoginToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/AuthenticationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/GloablExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/utils/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/utils/CookieUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/resources/user-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/resources/admin-consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/resources/user-provider.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/addInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/myorder.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/recommend.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/controller/RecommendController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/pojo/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/cn/zhx2019/young/user/utils/CookieUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/target/classes/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/target/classes/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/target/classes/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/user-consumer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/classes/user-provider.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-admin/target/tomcat/logs/access_log.2019-07-29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/common/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/common/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/common/PagingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/common/PagingData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-api/target/classes/cn/zhx2019/young/api/common/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-api/target/classes/cn/zhx2019/young/api/common/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-api/target/classes/cn/zhx2019/young/api/common/PagingData.class" beforeDir="false" afterPath="$PROJECT_DIR$/young-api/target/classes/cn/zhx2019/young/api/common/PagingData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-api/target/young-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/young-api/target/young-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-common/target/surefire-reports/TEST-cn.zhx2019.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-common/target/surefire-reports/TEST-cn.zhx2019.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-common/target/surefire-reports/cn.zhx2019.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/young-common/target/surefire-reports/cn.zhx2019.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-common/target/young-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/young-common/target/young-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/src/main/resources/course-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-course/src/main/resources/course-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/classes/course-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-course/target/classes/course-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-course/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-course/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/tomcat/logs/access_log.2019-07-29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/tomcat/work/Tomcat/localhost/course/org/apache/jsp/WEB_002dINF/jsp/coursedetails_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/tomcat/work/Tomcat/localhost/course/org/apache/jsp/WEB_002dINF/jsp/coursedetails_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/tomcat/work/Tomcat/localhost/course/org/apache/jsp/WEB_002dINF/jsp/header_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-course/target/tomcat/work/Tomcat/localhost/course/org/apache/jsp/WEB_002dINF/jsp/header_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/HotCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/dao/HotCourseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/service/HotCourseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/resources/mybatis/mapper/HotCourseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/resources/portal-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/src/main/resources/portal-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/course-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/course-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/courseseleted-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/courseseleted-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/evaluation-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/evaluation-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/user-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/target/classes/mybatis/mapper/HotCourseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/target/classes/portal-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/target/classes/portal-provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/target/classes/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/target/classes/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/young-portal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-portal/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/young-portal/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,55 +63,37 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Young2.0" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/young-course/src/main/java/cn/zhx2019/young/course/service/CourseImpl.java">
+        <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
-              <folding>
-                <element signature="e#2676#2677#0" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#4196#4197#0" expanded="true" />
-                <element signature="e#4250#4251#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-83">
+              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/AuthenticationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+            <state relative-caret-position="1813">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/young-course/src/main/java/cn/zhx2019/young/course/dao/CourseMapper.java">
+        <entry file="file://$PROJECT_DIR$/young-portal/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="44" column="39" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/young-course/src/main/resources/mybatis/mapper/CourseMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="337" column="77" selection-start-line="337" selection-start-column="77" selection-end-line="337" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/SchoolController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="580">
+              <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -210,11 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/young-user/src/main/resources/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/young-user/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/young-user/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/young-user/src/main/webapp/swagger/dist/index.html" />
         <option value="$PROJECT_DIR$/young-common/pom.xml" />
@@ -223,10 +148,8 @@
         <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/CourseDetailsController.java" />
         <option value="$PROJECT_DIR$/young-portal/src/main/resources/spring/portal-provider.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/young-portal/pom.xml" />
         <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/HotCourseController.java" />
         <option value="$PROJECT_DIR$/young-user/src/main/webapp/WEB-INF/jsp/addInfo.jsp" />
-        <option value="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/young-course/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/young-course/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/young-course/src/main/webapp/WEB-INF/web.xml" />
@@ -252,7 +175,6 @@
         <option value="$PROJECT_DIR$/young-admin/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/young-course/src/main/resources/course-provider.xml" />
         <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/dao/HotCourseMapper.java" />
-        <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java" />
         <option value="$PROJECT_DIR$/young-portal/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/young-portal/src/main/resources/portal-provider.xml" />
         <option value="$PROJECT_DIR$/young-portal/src/main/resources/portal-consumer.xml" />
@@ -261,6 +183,14 @@
         <option value="$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/common/Page.java" />
         <option value="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/common/PagingData.java" />
+        <option value="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java" />
+        <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/GloablExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/young-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/AuthenticationInterceptor.java" />
+        <option value="$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/user/UserService.java" />
+        <option value="$PROJECT_DIR$/young-portal/src/main/resources/spring/springmvc.xml" />
       </list>
     </option>
   </component>
@@ -302,75 +232,25 @@
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-api" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-api" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -378,93 +258,58 @@
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-user" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="young-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Young2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Young2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="young-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,7 +322,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564500731857" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564590998503" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/young-admin/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -504,11 +349,11 @@
       <recent name="cn.zhx2019.young.portal.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\Young2.0\young-portal\src\main\java\cn\zhx2019\young\portal" />
       <recent name="E:\JavaProject\Young2.0\young-portal\src\main\resources" />
       <recent name="E:\JavaProject\Young2.0" />
       <recent name="E:\JavaProject\Young2.0\young-user\src\main\resources" />
       <recent name="E:\JavaProject\Young2.0\young-course\src\main\resources" />
-      <recent name="E:\JavaProject\Young2.0\young-user\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -729,7 +574,7 @@
       <workItem from="1564286260537" duration="23143000" />
       <workItem from="1564402875330" duration="11764000" />
       <workItem from="1564486742189" duration="12244000" />
-      <workItem from="1564569120997" duration="2277000" />
+      <workItem from="1564569120997" duration="5655000" />
     </task>
     <task id="LOCAL-00001" summary="修改pom文件版本号">
       <created>1564279784168</created>
@@ -738,23 +583,30 @@
       <option name="project" value="LOCAL" />
       <updated>1564279784168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="划分模块完毕，开始实现SSO单点登录">
+      <created>1564581350617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564581350618</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82637000" />
+    <option name="totallyTimeSpent" value="86015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.42468855" side_tool="true" weight="0.20225322" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.6821963" visible="true" weight="0.16845493" />
-      <window_info id="Structure" order="6" sideWeight="0.31780365" side_tool="true" weight="0.23229614" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.5753114" visible="true" weight="0.20225322" />
+      <window_info id="Structure" order="6" sideWeight="0.42468855" side_tool="true" visible="true" weight="0.20225322" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3295583" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.2819932" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3295583" />
@@ -787,7 +639,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改pom文件版本号" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改pom文件版本号" />
+    <MESSAGE value="划分模块完毕，开始实现SSO单点登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="划分模块完毕，开始实现SSO单点登录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -842,61 +695,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/portal/HotCourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-portal/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/dao/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/service/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/manager/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-admin/src/main/java/cn/zhx2019/young/admin/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="150" column="34" lean-forward="true" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/evaluation-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/young-admin/src/main/webapp/WEB-INF/jsp/courseseleted-list.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -921,23 +719,6 @@
           <folding>
             <element signature="e#2980#2981#0" expanded="true" />
             <element signature="e#3037#3038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1067,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/schooldetail1.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -1170,10 +944,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/SchoolController.java">
+    <entry file="https://github.com/JinBinPeng/springboot-jwt.git">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="192">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="106" />
+          <folding>
+            <element signature="e#1071#1077#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2900">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-course/src/main/java/cn/zhx2019/young/course/service/CourseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2987">
+          <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+          <folding>
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+            <element signature="e#4196#4197#0" expanded="true" />
+            <element signature="e#4250#4251#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,31 +993,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/young-course/src/main/java/cn/zhx2019/young/course/dao/CourseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="-518">
           <caret line="44" column="39" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="https://github.com/JinBinPeng/springboot-jwt.git">
-      <provider selected="true" editor-type-id="httpFileEditor" />
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/webapp/WEB-INF/jsp/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-course/src/main/java/cn/zhx2019/young/course/service/CourseImpl.java">
+    <entry file="file://$PROJECT_DIR$/young-api/src/main/java/cn/zhx2019/young/api/user/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="119" column="52" selection-start-line="119" selection-start-column="52" selection-end-line="119" selection-end-column="52" />
+        <state relative-caret-position="584">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
           <folding>
-            <element signature="e#2676#2677#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#4196#4197#0" expanded="true" />
-            <element signature="e#4250#4251#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/young-user/src/main/java/cn/zhx2019/young/user/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        <state relative-caret-position="584">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+          <folding>
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2923#2924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/GloablExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/SchoolController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/annotation/UserLoginToken.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/annotation/PassToken.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/controller/PortalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/young-portal/src/main/java/cn/zhx2019/young/portal/interceptor/AuthenticationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1813">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

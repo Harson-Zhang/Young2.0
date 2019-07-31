@@ -61,6 +61,7 @@ public class UserController {
     @RequestMapping(value = {"/signout", "/logout"})
     public String signout(HttpSession session) {
         session.invalidate();
+        //注意清除token
         return "redirect:toIndexPage";
     }
 

@@ -12,36 +12,35 @@
 
     <!--组建扫描器，自动扫描指定包下面的所有注解，如果包含@controller,@service,@component则把这个类自动注册成bean-->
     <!--在springmvc的配置文件中的主要作用是注册五大组建中的controller组件-->
-    <context:component-scan base-package="cn.zhx2019.young.portal.controller" />
+    <context:component-scan base-package="cn.zhx2019.young.portal.controller"/>
     <!--mvc:annotation-driven会自动注册DefaultAnnotationHandlerMapping与AnnotationMethodHandlerAdapter 两个bean,是spring MVC为@Controllers分发请求所必须的。
     并提供了：数据绑定支持，@NumberFormatannotation支持，@DateTimeFormat支持，@Valid支持，读写XML的支持（JAXB），读写JSON的支持（Jackson）。
     后面，我们处理响应ajax请求时，就使用到了对json的支持。-->
     <!--注册五大组件中的HandlerMapping和HandlerAdapter-->
-    <mvc:annotation-driven />
+    <mvc:annotation-driven/>
 
     <!--配置资源映射-->
     <mvc:resources mapping="/css/**" location="/css/"/>
     <mvc:resources mapping="/js/**" location="/js/"/>
-    <mvc:resources location="/img/" mapping="/img/**" />
+    <mvc:resources location="/img/" mapping="/img/**"/>
 
-    <mvc:default-servlet-handler />
-    <mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
-    <mvc:resources location="/layui/" mapping="/layui/**"></mvc:resources>
-    <mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
-    <mvc:resources location="/img/" mapping="/img/**"></mvc:resources>
+    <mvc:default-servlet-handler/>
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/layui/" mapping="/layui/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
 
     <!--配置拦截器,并拦截所有请求-->
     <!--<mvc:interceptors>-->
-        <!--<mvc:interceptor>-->
-            <!--<mvc:mapping path="/admin"/>-->
-            <!--<bean class="cn.zhx2019.young.portal.web.controller.LoginInterceptor"/>-->
-        <!--</mvc:interceptor>-->
+    <!--<mvc:interceptor>-->
+    <!--<mvc:mapping path="/admin"/>-->
+    <!--<bean class="cn.zhx2019.young.portal.web.controller.LoginInterceptor"/>-->
+    <!--</mvc:interceptor>-->
     <!--</mvc:interceptors>-->
 
     <!--注册内部视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <property name="suffix" value=".jsp" />
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
 
     <!-- 定义文件上传解析器 -->
@@ -54,15 +53,19 @@
     </bean>
 
     <!-- 配置拦截器 -->
-    <!--<mvc:interceptors>-->
-    <!--<mvc:interceptor>-->
-        <!--&lt;!&ndash; 拦截所有mvc控制器 &ndash;&gt;-->
-        <!--<mvc:mapping path="/**"/>-->
-        <!--&lt;!&ndash; mvc:exclude-mapping是另外一种拦截，它可以在你后来的测试中对某个页面进行不拦截，这样就不用在-->
-            <!--LoginInterceptor的preHandler方法里面获取不拦截的请求uri地址了(优选) &ndash;&gt;-->
-        <!--<mvc:exclude-mapping path="/login" />-->
-        <!--<bean class="cn.zhx2019.young.portal.web.interceptor.LoginInterceptor"></bean>-->
-    <!--</mvc:interceptor>-->
-    <!--</mvc:interceptors>-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 拦截所有mvc控制器 -->
+            <mvc:mapping path="/**"/>
+            <!-- mvc:exclude-mapping是另外一种拦截，它可以在你后来的测试中对某个页面进行不拦截，这样就不用在
+                LoginInterceptor的preHandler方法里面获取不拦截的请求uri地址了(优选) -->
+            <!--<mvc:exclude-mapping path="/login" />-->
+            <bean class="cn.zhx2019.young.portal.interceptor.AuthenticationInterceptor"/>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="cn.zhx2019.young.portal.interceptor.GloablExceptionHandler"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>
